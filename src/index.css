@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.grid>div {
+    grid-row: var(--r);
+    grid-column: var(--c);
+}
